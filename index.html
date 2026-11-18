@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Бессмертный полк школы №&nbsp;598 — музей школы</title>
+  <meta name="description" content="Виртуальное музейное пространство школы №&nbsp;598: личные истории о героях войны и их вкладе в Победу. Фотографии, воспоминания и краткие биографии.">
+  <meta property="og:title" content="Бессмертный полк школы №&nbsp;598 — музей школы">
+  <meta property="og:description" content="Виртуальное музейное пространство школы №&nbsp;598: личные истории о героях войны и их вкладе в Победу. Фотографии, воспоминания и краткие биографии.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/photos/stend-598.jpg">
+  <meta name="theme-color" content="#3a3d29">
+  <link rel="icon" href="img/star.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/oswald-cyr.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/onest-cyr.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.className = 'js';</script>
+</head>
+<body class="p-home">
+  <div class="progress" aria-hidden="true"><i></i></div>
+  <header class="top" id="top">
+    <a class="brand" href="index.html"><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Музей школы №&nbsp;598</span></a>
+    <nav class="nav" id="nav" aria-label="Разделы сайта"><a href="polk.html">Полк</a><a href="stories.html">Истории</a><a href="index.html#uchastie">Участвовать</a><a href="about.html">О проекте</a><a href="index.html#kontakty">Контакты</a></nav>
+    <a class="top__cta" href="index.html#uchastie"><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Добавить героя</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Меню"><i></i><i></i></button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero">
+      <div class="hero__photo"><img src="img/photos/hero.jpg" alt="" width="1920" height="1365" fetchpriority="high"></div>
+      <canvas class="hero__scene" id="scene" aria-hidden="true"></canvas>
+      <div class="wrap hero__in">
+        <h1><span class="ln"><span>Бессмертный</span></span><span class="ln"><span>полк</span></span><span class="ln ln--sub"><span>школы №&nbsp;598</span></span></h1>
+        <p class="lead">Виртуальное музейное пространство, где собраны личные истории о героях войны и их вкладе в Победу. Здесь вы найдёте фотографии, воспоминания и краткие биографии.</p>
+        <div class="acts">
+          <a class="btn btn--main" href="polk.html">Смотреть полк</a>
+          <a class="btn btn--glass" href="#uchastie">Рассказать о своём герое</a>
+        </div>
+      </div>
+      <div class="wrap hero__foot">
+        <dl class="stats">
+          <div><dt>героя в полку</dt><dd data-count="54">54</dd></div>
+          <div><dt>видеоисторий</dt><dd data-count="16">16</dd></div>
+          <div><dt>дней войны</dt><dd data-count="1418">1418</dd></div>
+        </dl>
+        <a class="scroll" href="#o-proekte" aria-label="Листать вниз"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg></a>
+      </div>
+    </section>
+
+    <div class="tape" aria-hidden="true">
+      <div class="tape__row "><span>Александров</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Буршев</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Буршева</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Васильев</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Войцеховский</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Гавриш</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Громова</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Дондоков</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Ефимова</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Жевтун</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Зайцев</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Замышляев</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Иванов</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Иванькин</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Ивченков</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Игнатьев</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Катышев</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Квачук</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Княжев</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Колесов</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Крахмаль</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Кучевасов</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Лазеба</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg></div>
+      <div class="tape__row tape__row--rev"><span>Лукьянчук</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Лыков</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Майстер</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Максюта</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Машкин</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Меликян</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Митюков</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Михеев</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Михеева (Старикова)</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Новиков</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Парфенов</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Ракитянский</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Ринчинов</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Смирнов</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Стадник</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Телегин</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Торопов</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Трачук</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Федоров</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Цыденов</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Чарков</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Чистякова</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Широких</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Яблокова</span><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg></div>
+    </div>
+
+    <section class="about" id="o-proekte" aria-labelledby="about-h">
+      <div class="wrap about__grid">
+        <div>
+          <h2 class="kicker" id="about-h">О проекте</h2>
+          <p class="statement" id="statement">В виртуальном музейном пространстве «Бессмертный полк» мы собираем и публикуем истории родных наших учеников, педагогов и сотрудников — тех, кто воевал, трудился в тылу, пережил оккупацию и внёс свой вклад в Победу. Эти истории, бережно хранимые в семьях, становятся частью истории нашей страны. Это не парадные рассказы о подвигах, а <em>личные истории</em>.</p>
+          <a class="btn btn--glass" href="about.html" data-r>Подробнее о проекте</a>
+        </div>
+        <figure class="shot" data-par="0.12" data-r>
+          <img src="img/photos/stend-598.jpg" alt="Стенд с портретами героев и надписью «Бессмертный полк школы 598»" width="1126" height="690" loading="lazy" decoding="async">
+          <figcaption>Стенд «Бессмертный полк школы 598»</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="polk" id="polk" aria-labelledby="polk-h">
+      <div class="wrap polk__head">
+        <h2 id="polk-h" data-r>В одном строю <b>54</b> героя</h2>
+        <div data-r style="--d:90ms">
+          <p>Родные наших учеников, педагогов и сотрудников. Нажмите на портрет, чтобы открыть лист героя.</p>
+          <a class="btn btn--main" href="polk.html">Открыть весь полк</a>
+        </div>
+      </div>
+      <div class="wall" id="wall">
+        <div class="wall__plane">
+          <div class="wall__row" style="--dur:110s"><a class="wcard" href="polk.html#h6432303"><img src="img/heroes-s/6432303.jpg" alt="" width="240" height="300" decoding="async"><span>Александров М. Л.</span></a><a class="wcard" href="polk.html#h6366336"><img src="img/heroes-s/6366336.jpg" alt="" width="240" height="300" decoding="async"><span>Васильев Г. В.</span></a><a class="wcard" href="polk.html#h3130303"><img src="img/heroes-s/3130303.jpg" alt="" width="240" height="300" decoding="async"><span>Гавриш А. М.</span></a><a class="wcard" href="polk.html#h3837356"><img src="img/heroes-s/3837356.jpg" alt="" width="240" height="300" decoding="async"><span>Дондоков Д. Д.</span></a><a class="wcard" href="polk.html#h6262623"><img src="img/heroes-s/6262623.jpg" alt="" width="240" height="300" decoding="async"><span>Зайцев В. В.</span></a><a class="wcard" href="polk.html#h3466393"><img src="img/heroes-s/3466393.jpg" alt="" width="240" height="300" decoding="async"><span>Иванькин С. М.</span></a><a class="wcard" href="polk.html#h3864303"><img src="img/heroes-s/3864303.jpg" alt="" width="240" height="300" decoding="async"><span>Катышев А. Н.</span></a><a class="wcard" href="polk.html#h6561323"><img src="img/heroes-s/6561323.jpg" alt="" width="240" height="300" decoding="async"><span>Княжев М. М.</span></a><a class="wcard" href="polk.html#h3738633"><img src="img/heroes-s/3738633.jpg" alt="" width="240" height="300" decoding="async"><span>Колесов А. А.</span></a><a class="wcard" href="polk.html#h6462663"><img src="img/heroes-s/6462663.jpg" alt="" width="240" height="300" decoding="async"><span>Лазеба М. М.</span></a><a class="wcard" href="polk.html#h3439636"><img src="img/heroes-s/3439636.jpg" alt="" width="240" height="300" decoding="async"><span>Майстер Д. М.</span></a><a class="wcard" href="polk.html#h3139616"><img src="img/heroes-s/3139616.jpg" alt="" width="240" height="300" decoding="async"><span>Меликян М. В.</span></a><a class="wcard" href="polk.html#h3633613"><img src="img/heroes-s/3633613.jpg" alt="" width="240" height="300" decoding="async"><span>Михеева (Старикова) Н. М.</span></a><a class="wcard" href="polk.html#h6139643"><img src="img/heroes-s/6139643.jpg" alt="" width="240" height="300" decoding="async"><span>Ракитянский И. А.</span></a><a class="wcard" href="polk.html#h6666383"><img src="img/heroes-s/6666383.jpg" alt="" width="240" height="300" decoding="async"><span>Стадник А. Д.</span></a><a class="wcard" href="polk.html#h6331313"><img src="img/heroes-s/6331313.jpg" alt="" width="240" height="300" decoding="async"><span>Торопов И. Ф.</span></a><a class="wcard" href="polk.html#h3662316"><img src="img/heroes-s/3662316.jpg" alt="" width="240" height="300" decoding="async"><span>Федоров А. П.</span></a><a class="wcard" href="polk.html#h3539356"><img src="img/heroes-s/3539356.jpg" alt="" width="240" height="300" decoding="async"><span>Чистякова М. И.</span></a></div>
+          <div class="wall__row" style="--dur:140s"><a class="wcard" href="polk.html#h6534383"><img src="img/heroes-s/6534383.jpg" alt="" width="240" height="300" decoding="async"><span>Буршев Ф. П.</span></a><a class="wcard" href="polk.html#h3034323"><img src="img/heroes-s/3034323.jpg" alt="" width="240" height="300" decoding="async"><span>Войцеховский Н. К.</span></a><a class="wcard" href="polk.html#h3363373"><img src="img/heroes-s/3363373.jpg" alt="" width="240" height="300" decoding="async"><span>Гавриш И. А.</span></a><a class="wcard" href="polk.html#h6230373"><img src="img/heroes-s/6230373.jpg" alt="" width="240" height="300" decoding="async"><span>Ефимова Е. С.</span></a><a class="wcard" href="polk.html#h6534343"><img src="img/heroes-s/6534343.jpg" alt="" width="240" height="300" decoding="async"><span>Замышляев И. А.</span></a><a class="wcard" href="polk.html#h6430633"><span class="noph"><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg></span><span>Ивченков Н. Л.</span></a><a class="wcard" href="polk.html#h6536343"><img src="img/heroes-s/6536343.jpg" alt="" width="240" height="300" decoding="async"><span>Квачук А. М.</span></a><a class="wcard" href="polk.html#h3739383"><img src="img/heroes-s/3739383.jpg" alt="" width="240" height="300" decoding="async"><span>Княжев Н. М.</span></a><a class="wcard" href="polk.html#h6262333"><img src="img/heroes-s/6262333.jpg" alt="" width="240" height="300" decoding="async"><span>Крахмаль А. Д.</span></a><a class="wcard" href="polk.html#h6237313"><img src="img/heroes-s/6237313.jpg" alt="" width="240" height="300" decoding="async"><span>Лукьянчук Ф. Ф.</span></a><a class="wcard" href="polk.html#h3031643"><img src="img/heroes-s/3031643.jpg" alt="" width="240" height="300" decoding="async"><span>Максюта Д. Н.</span></a><a class="wcard" href="polk.html#h3562656"><img src="img/heroes-s/3562656.jpg" alt="" width="240" height="300" decoding="async"><span>Митюков Д. П.</span></a><a class="wcard" href="polk.html#h3635336"><img src="img/heroes-s/3635336.jpg" alt="" width="240" height="300" decoding="async"><span>Новиков Т. О.</span></a><a class="wcard" href="polk.html#h6139356"><img src="img/heroes-s/6139356.jpg" alt="" width="240" height="300" decoding="async"><span>Ринчинов Ж.</span></a><a class="wcard" href="polk.html#h3833663"><img src="img/heroes-s/3833663.jpg" alt="" width="240" height="300" decoding="async"><span>Телегин А. Ф.</span></a><a class="wcard" href="polk.html#h3438373"><img src="img/heroes-s/3438373.jpg" alt="" width="240" height="300" decoding="async"><span>Торопов К. И.</span></a><a class="wcard" href="polk.html#h3931393"><img src="img/heroes-s/3931393.jpg" alt="" width="240" height="300" decoding="async"><span>Цыденов А. Ц.</span></a><a class="wcard" href="polk.html#h3133613"><img src="img/heroes-s/3133613.jpg" alt="" width="240" height="300" decoding="async"><span>Широких Д. М.</span></a></div>
+          <div class="wall__row" style="--dur:120s"><a class="wcard" href="polk.html#h3532623"><img src="img/heroes-s/3532623.jpg" alt="" width="240" height="300" decoding="async"><span>Буршева А. П.</span></a><a class="wcard" href="polk.html#h6438343"><img src="img/heroes-s/6438343.jpg" alt="" width="240" height="300" decoding="async"><span>Гавриш А. А.</span></a><a class="wcard" href="polk.html#h6639306"><img src="img/heroes-s/6639306.jpg" alt="" width="240" height="300" decoding="async"><span>Громова С. В.</span></a><a class="wcard" href="polk.html#h6638396"><img src="img/heroes-s/6638396.jpg" alt="" width="240" height="300" decoding="async"><span>Жевтун И. Ф.</span></a><a class="wcard" href="polk.html#h6232396"><img src="img/heroes-s/6232396.jpg" alt="" width="240" height="300" decoding="async"><span>Иванов И. Г.</span></a><a class="wcard" href="polk.html#h3831343"><img src="img/heroes-s/3831343.jpg" alt="" width="240" height="300" decoding="async"><span>Игнатьев М. Н.</span></a><a class="wcard" href="polk.html#h3135613"><img src="img/heroes-s/3135613.jpg" alt="" width="240" height="300" decoding="async"><span>Княжев А. М.</span></a><a class="wcard" href="polk.html#h6431623"><img src="img/heroes-s/6431623.jpg" alt="" width="240" height="300" decoding="async"><span>Княжев П. М.</span></a><a class="wcard" href="polk.html#h3539303"><img src="img/heroes-s/3539303.jpg" alt="" width="240" height="300" decoding="async"><span>Кучевасов А. Е.</span></a><a class="wcard" href="polk.html#h3136613"><img src="img/heroes-s/3136613.jpg" alt="" width="240" height="300" decoding="async"><span>Лыков Г. Ф.</span></a><a class="wcard" href="polk.html#h6136383"><img src="img/heroes-s/6136383.jpg" alt="" width="240" height="300" decoding="async"><span>Машкин С. Н.</span></a><a class="wcard" href="polk.html#h3432613"><img src="img/heroes-s/3432613.jpg" alt="" width="240" height="300" decoding="async"><span>Михеев П. И.</span></a><a class="wcard" href="polk.html#h3164346"><img src="img/heroes-s/3164346.jpg" alt="" width="240" height="300" decoding="async"><span>Парфенов М. В.</span></a><a class="wcard" href="polk.html#h3034346"><img src="img/heroes-s/3034346.jpg" alt="" width="240" height="300" decoding="async"><span>Смирнов В. С.</span></a><a class="wcard" href="polk.html#h3437373"><img src="img/heroes-s/3437373.jpg" alt="" width="240" height="300" decoding="async"><span>Телегин И. А.</span></a><a class="wcard" href="polk.html#h3635333"><img src="img/heroes-s/3635333.jpg" alt="" width="240" height="300" decoding="async"><span>Трачук И. Н.</span></a><a class="wcard" href="polk.html#h6630633"><img src="img/heroes-s/6630633.jpg" alt="" width="240" height="300" decoding="async"><span>Чарков Т. Н.</span></a><a class="wcard" href="polk.html#h3031366"><img src="img/heroes-s/3031366.jpg" alt="" width="240" height="300" decoding="async"><span>Яблокова В. Ф.</span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stories" id="istorii" aria-labelledby="ist-h">
+      <div class="wrap">
+        <header class="sh">
+          <h2 id="ist-h" data-r>Узнайте их истории</h2>
+          <p data-r style="--d:90ms">Читайте рассказы, смотрите видеорассказы потомков о жизни людей, повлиявших на нашу историю. Каждая история уникальна.</p>
+        </header>
+        <div class="feat">
+          <article class="fcard" data-r style="--d:0ms">
+            <div class="fcard__img"><img src="img/photos/rakityansky.jpg" alt="Ракитянский Иван Александрович" width="544" height="700" loading="lazy" decoding="async"></div>
+            <div class="fcard__body">
+              <p class="fcard__dates">1922 — 1993</p>
+              <h3>Ракитянский<span>Иван Александрович</span></h3>
+              <p>Рассказ о генерал-майоре, его подвигах, вкладе в Победу и послевоенной жизни.</p>
+              <a class="btn btn--line btn--s" href="https://disk.yandex.ru/d/PzQLocSsiDlkIA" target="_blank" rel="noopener">Открыть историю<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+            </div>
+          </article>
+          <article class="fcard" data-r style="--d:90ms">
+            <div class="fcard__img"><img src="img/photos/yablokova.jpg" alt="Яблокова Валентина Федосеевна" width="463" height="700" loading="lazy" decoding="async"></div>
+            <div class="fcard__body">
+              <p class="fcard__dates">1937 — 2016</p>
+              <h3>Яблокова<span>Валентина Федосеевна</span></h3>
+              <p>История жительницы блокадного Ленинграда.</p>
+              <a class="btn btn--line btn--s" href="https://disk.yandex.ru/d/sMF9dtMQinpFlA" target="_blank" rel="noopener">Открыть историю<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+            </div>
+          </article>
+          <article class="fcard" data-r style="--d:180ms">
+            <div class="fcard__img"><img src="img/heroes/3034323.jpg" alt="Войцеховский Николай Калистратович" width="480" height="600" loading="lazy" decoding="async"></div>
+            <div class="fcard__body">
+              <p class="fcard__dates">1917 — 1978</p>
+              <h3>Войцеховский<span>Николай Калистратович</span></h3>
+              <p>История начальника штаба объединённых партизанских войск, рассказанная его правнуком.</p>
+              <a class="btn btn--line btn--s" href="https://disk.yandex.ru/d/FLoPd5VkxBr7IQ" target="_blank" rel="noopener">Открыть историю<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="videos" aria-labelledby="vid-h">
+      <div class="wrap">
+        <header class="sh sh--row">
+          <h2 id="vid-h" data-r>Истории, рассказанные потомками</h2>
+          <a class="btn btn--glass" href="stories.html" data-r style="--d:90ms">Все 16 видеоисторий</a>
+        </header>
+        <div class="vgrid">
+          <a class="vcard vcard--1" href="https://vk.com/video-45270533_456239239" data-embed="https://vkvideo.ru/video_ext.php?oid=-45270533&amp;id=456239239&amp;hd=2&amp;autoplay=1" data-title="Машкин Сергей Николаевич" data-r style="--d:0ms">
+            <span class="vcard__img"><span><img src="img/heroes/6136383.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></span></span>
+            <span class="vcard__play"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="7 4 20 12 7 20 7 4" fill="currentColor"/></svg></span>
+            <span class="vcard__txt"><b>Машкин Сергей Николаевич</b><small>О своём прадеде рассказывает Александр Машкин, 2 «В» класс</small></span>
+          </a>
+          <a class="vcard vcard--1" href="https://vk.com/video-45270533_456239235" data-embed="https://vkvideo.ru/video_ext.php?oid=-45270533&amp;id=456239235&amp;hd=2&amp;autoplay=1" data-title="Максюта Дмитрий Нестерович" data-r style="--d:70ms">
+            <span class="vcard__img"><span><img src="img/heroes/3031643.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></span></span>
+            <span class="vcard__play"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="7 4 20 12 7 20 7 4" fill="currentColor"/></svg></span>
+            <span class="vcard__txt"><b>Максюта Дмитрий Нестерович</b><small>О своём прадеде рассказывает Семён Носков, 2 «В» класс</small></span>
+          </a>
+          <a class="vcard vcard--1" href="https://vk.com/video-45270533_456239234" data-embed="https://vkvideo.ru/video_ext.php?oid=-45270533&amp;id=456239234&amp;hd=2&amp;autoplay=1" data-title="Громова Серафима Васильевна" data-r style="--d:140ms">
+            <span class="vcard__img"><span><img src="img/heroes/6639306.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></span></span>
+            <span class="vcard__play"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="7 4 20 12 7 20 7 4" fill="currentColor"/></svg></span>
+            <span class="vcard__txt"><b>Громова Серафима Васильевна</b><small>О своей прабабушке рассказывает Вера Бирюкова, 6 «В» класс</small></span>
+          </a>
+          <a class="vcard vcard--1" href="https://vk.com/video-45270533_456239233" data-embed="https://vkvideo.ru/video_ext.php?oid=-45270533&amp;id=456239233&amp;hd=2&amp;autoplay=1" data-title="Лазеба Михаил Макарович" data-r style="--d:210ms">
+            <span class="vcard__img"><span><img src="img/heroes/6462663.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></span></span>
+            <span class="vcard__play"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="7 4 20 12 7 20 7 4" fill="currentColor"/></svg></span>
+            <span class="vcard__txt"><b>Лазеба Михаил Макарович</b><small>О своём прадеде рассказывает Василиса Аборенко, 6 «В» класс</small></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="join" id="uchastie" aria-labelledby="uch-h">
+      <div class="wrap">
+        <header class="sh">
+          <h2 id="uch-h" data-r>Сохраним память</h2>
+          <p data-r style="--d:90ms">Делитесь историями о своих героях. Три шага — и ваш герой встанет в строй.</p>
+        </header>
+        <ol class="steps">
+          <li data-r>
+            <span class="steps__n">1</span>
+            <h3>Поиск историй</h3>
+            <p>Найдите личные истории о родственниках, участвовавших во Второй мировой войне.</p>
+            <div class="chips"><a href="https://pamyat-naroda.ru/" target="_blank" rel="noopener">Память народа<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a><a href="https://podvignaroda.ru/" target="_blank" rel="noopener">Подвиг народа<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a><a href="https://web.archive.org/web/20231123082813/https:/obd-memorial.ru/html/" target="_blank" rel="noopener">ОБД «Мемориал»<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a><a href="https://www.moypolk.ru/" target="_blank" rel="noopener">Бессмертный полк<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a><a href="https://1418museum.ru/" target="_blank" rel="noopener">Дорога памяти<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></div>
+          </li>
+          <li data-r style="--d:100ms">
+            <span class="steps__n">2</span>
+            <h3>Подготовка материалов</h3>
+            <p>Соберите фотографии, воспоминания и краткие биографии, внесите информацию по плану. Анкету можно заполнить прямо на сайте.</p>
+            <a class="btn btn--line btn--s" href="#anketa">Заполнить анкету</a>
+          </li>
+          <li data-r style="--d:200ms">
+            <span class="steps__n">3</span>
+            <h3>Отправка материалов</h3>
+            <p>Присылайте материалы в удобном для вас формате на почту <a href="mailto:m.dohnevskaya@s598.ru">m.dohnevskaya@s598.ru</a>, приносите в кабинет истории №&nbsp;32 или в школьный музей.</p>
+          </li>
+        </ol>
+        <form class="anketa" id="anketa" data-mail="m.dohnevskaya@s598.ru" novalidate data-r>
+          <div class="anketa__head">
+            <h3>Анкета героя</h3>
+            <p>Заполните, что знаете. Фотографии и документы приложите к письму отдельно.</p>
+          </div>
+          <div class="anketa__grid">
+              <div class="fld fld--wide"><label for="f-fio">ФИО героя</label><input id="f-fio" name="fio" type="text" autocomplete="off" data-label="ФИО героя"></div>
+              <div class="fld"><label for="f-rank">Звание</label><input id="f-rank" name="rank" type="text" autocomplete="off" data-label="Звание"></div>
+              <div class="fld"><label for="f-born">Дата и место рождения</label><input id="f-born" name="born" type="text" autocomplete="off" data-label="Дата и место рождения"></div>
+              <div class="fld"><label for="f-died">Дата и место смерти (гибели)</label><input id="f-died" name="died" type="text" autocomplete="off" data-label="Дата и место смерти (гибели)"></div>
+              <div class="fld"><label for="f-awards">Награды</label><input id="f-awards" name="awards" type="text" autocomplete="off" data-label="Награды"></div>
+              <div class="fld fld--wide"><label for="f-bio">Биография</label><textarea id="f-bio" name="bio" rows="3" data-label="Биография"></textarea></div>
+              <div class="fld fld--wide"><label for="f-docs">Ссылка на оцифрованные документы</label><input id="f-docs" name="docs" type="text" autocomplete="off" data-label="Ссылка на оцифрованные документы"></div>
+              <div class="fld fld--wide"><label for="f-feat">История подвига</label><textarea id="f-feat" name="feat" rows="3" data-label="История подвига"></textarea></div>
+              <div class="fld fld--wide"><label for="f-other">Прочее</label><input id="f-other" name="other" type="text" autocomplete="off" data-label="Прочее"></div>
+              <div class="fld fld--wide"><label for="f-pupil">ФИО обучающегося, класс</label><input id="f-pupil" name="pupil" type="text" autocomplete="off" data-label="ФИО обучающегося, класс"></div>
+          </div>
+          <div class="anketa__acts">
+            <button class="btn btn--main" type="submit">Отправить по почте</button>
+            <button class="btn btn--line" type="button" data-act="copy">Скопировать текст</button>
+            <button class="btn btn--line" type="button" data-act="print">Распечатать</button>
+            <p class="anketa__note" id="anketa-note" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="memory" id="pamyat" aria-labelledby="pam-h">
+      <div class="memory__bg" data-par="0.18"><img src="img/photos/privet-iz-armii.jpg" alt="" width="891" height="833" loading="lazy" decoding="async"></div>
+      <div class="wrap">
+        <h2 id="pam-h" data-r>Увековечим память</h2>
+        <p class="memory__lead" data-r style="--d:90ms">Помогите сохранить эти истории, чтобы будущие поколения помнили о жертвах, принесённых ради нашей свободы. Ваш вклад очень важен.</p>
+        <div class="tenets">
+          <div class="glass" data-r><h3>Личные истории</h3><p>Мы собираем и сохраняем воспоминания о героях, чтобы будущие поколения могли узнать об их подвигах.</p></div>
+          <div class="glass" data-r style="--d:100ms"><h3>Уважение к прошлому</h3><p>Память о тех, кто боролся за свободу страны, помогает нам сохранить уважение к их подвигам и жертвам.</p></div>
+          <div class="glass" data-r style="--d:200ms"><h3>Возможность участия</h3><p>Каждый может поделиться историей своего героя и внести свой вклад в сохранение памяти о прошлом.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakty" aria-labelledby="kon-h">
+      <div class="wrap">
+        <div class="contact__card" data-r>
+          <div>
+            <h2 id="kon-h">Свяжитесь с нами</h2>
+            <p>Напишите нам, чтобы поделиться историей своего героя или задать вопрос.</p>
+            <a class="btn btn--main" href="mailto:m.dohnevskaya@s598.ru">Написать письмо</a>
+          </div>
+          <dl>
+            <div><dt>Телефон</dt><dd><a href="tel:+79219518410">8 921 951-84-10</a></dd></div>
+            <div><dt>Почта</dt><dd><a href="mailto:m.dohnevskaya@s598.ru">m.dohnevskaya@s598.ru</a></dd></div>
+            <div><dt>Адрес</dt><dd>Санкт-Петербург, Ситцевая ул., д. 15, лит. А</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <a class="brand" href="index.html"><svg class="star" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 61,38 97,38 68,59 79,94 50,73 21,94 32,59 3,38 39,38" fill="currentColor"/></svg><span>Музей школы №&nbsp;598</span></a>
+      <p>Виртуальное музейное пространство «Бессмертный полк школы №&nbsp;598». Санкт-Петербург, Ситцевая ул., д. 15, лит. А</p>
+      <p>Все материалы защищены авторским правом. Для связи и предложений: <a href="mailto:m.dohnevskaya@s598.ru">m.dohnevskaya@s598.ru</a></p>
+    </div>
+  </footer>
+
+  <dialog class="v" id="video-view" aria-label="Видеоистория">
+    <div class="v__in">
+      <div class="v__bar"><p class="v__title"><span class="v__name"></span></p><button class="ib" type="button" data-act="close" aria-label="Закрыть"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button></div>
+      <div class="v__stage"><div class="v__frame"></div></div>
+      <div class="v__foot"><p>Если видео не запускается, <a href="#" target="_blank" rel="noopener">откройте его во ВКонтакте</a></p></div>
+    </div>
+  </dialog>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
